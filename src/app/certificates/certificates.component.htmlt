@@ -1,0 +1,6 @@
+ <ul *ngFor="let job of certificates;">
+     <li>
+       {{ job.certificadoPreparatoriaAgricola }}  <i>{{ job.constanciaIngenieriaIndustrial }} </i> <br>
+       <b> {{ job.gedDiploma }} </b> <br>
+     </li>
+ </ul>
